@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "jsx": "react-jsx",         // Enable React JSX syntax
+      "strict": true,             // Enable strict type-checking
+      "moduleResolution": "Node", // Resolve modules like Node.js
+      "resolveJsonModule": true,  // Support JSON imports
+      "allowJs": true,            // Allow JavaScript files
+      "checkJs": false,           // Skip type-checking for JS files
+      "baseUrl": ".",             // Base path for imports
+      "paths": {
+        "*": ["src/*"]            // Simplify imports from `src/`
+      }
+    },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
